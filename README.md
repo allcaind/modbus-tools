@@ -8,3 +8,4 @@ Executam em qualquer distro Linux com pacotes libmodbus instalados. Para tanto, 
 - libmodbus-dev
 
 Ao compilar, além de linkar com a biblioteca modbus, atentar para o endereço de modbus.h incluso nas fontes (normalmente instalados em /usr/include/modbus)
+Por exemplo: gcc fonte.c -o fonte -lmodbus -I/usr/include/modbus
